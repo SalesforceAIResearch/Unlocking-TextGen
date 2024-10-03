@@ -1,0 +1,1 @@
+sh self_decode.sh 0,1 0.1 tiiuae/falcon-7b-instruct

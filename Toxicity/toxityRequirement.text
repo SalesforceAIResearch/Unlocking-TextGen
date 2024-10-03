@@ -1,0 +1,8 @@
+pandas
+tensorboard
+googleapis-common-protos
+google-api-core
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+protobuf==3.20.1

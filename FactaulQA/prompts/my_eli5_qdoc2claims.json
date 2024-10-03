@@ -1,0 +1,287 @@
+{
+    "instruction": "Instruction: Read the original question and the provided search results, and generate 3 additional claims that are supported by the passage and answer the question. ",
+    "demo_sep": "\n\n\n",
+    "demo_prompt": "{INST}\n\nQuestion: {Q}\n\n{D}\nClaim 1: {A}",
+    "doc_prompt": "Document [{ID}](Title: {T}): {P}\n",
+    "demos": [
+    {
+            "question": "does alcohol increase or decrease dopamine levels",
+            "question_ctx": "I know at first alcohol raises dopamine levels but what about in the long run?",
+            "answer": "[Read this](_URL_0_)\n\nI am the walking hedonic dysregulation theory",
+            "claims": [
+                "Alcohol consumption can lead to changes in dopamine levels.",
+                "Alcohol can lead to dysregulation of the hedonic system.",
+                "Abstinence from alcohol can lead to an increase in dopamine levels."
+            ],
+            "docs": [
+                {
+                    "title": "How adaptation of the brain to alcohol leads to dependence: a pharmacological perspective. - Free Online Library",
+                    "text": "neurons in the VTA of the alcohol-withdrawn animals exhibited a decreased inhibitory response to GABA, which could contribute to increased dopamine release after ethanol exposure (Brodie 2002). Together, these observations suggest that a type of sensitization to ethanol occurs in the VTA neurons of alcohol-withdrawn mice. As mentioned before, [mu] receptor antagonists can reduce the portion of the acute effect of alcohol on dopamine release in the VTA that is mediated through endorphin release. These antagonists still can attenuate alcohol's enhanced effect on dopamine release after withdrawal, and in this way they could contribute to a reduced alcohol consumption by",
+                    "url": "https://www.thefreelibrary.com/How+adaptation+of+the+brain+to+alcohol+leads+to+dependence%3A+a...-a0199539024",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+	   {
+                    "title": "Alcoholism and Addiction | Dr. Adina McGarr : 818.518.6775My Santa Barbara Therapy",
+                    "text": "normal baseline, alcohol (2 times) cocaine 3.5 times, nicotine 2.5 times. This may result in alcoholism and addiction, as the user is driven on a non-conscious level to continue drug seeking and using. The user\u2019s brain has now associated the drug with survival. Unnatural spikes in dopamine raise the pleasure threshold, meaning that activities that were once reinforcing or pleasurable no longer even register, hence we are unmotivated to do those things. To complicate matters, our brains do not tolerate unnatural amounts of dopamine, so the brain actually decreases the dopamine available via decreased synthesis, decreased receptor sites and increased",
+                    "url": "http://www.mysantabarbaratherapy.com/alcoholism-and-addiction.html",
+                    "summary": "Alcohol can cause unnatural spikes in dopamine levels, leading to addiction and decreased motivation for other pleasurable activities. However, the document does not provide a clear answer to whether alcohol increases or decreases dopamine levels.",
+                    "extraction": "Unnatural spikes in dopamine raise the pleasure threshold, meaning that activities that were once reinforcing or pleasurable no longer even register. To complicate matters, our brains do not tolerate unnatural amounts of dopamine, so the brain actually decreases the dopamine available via decreased synthesis, decreased receptor sites and increased normal baseline. Therefore, alcohol can increase dopamine levels in the short term, but in the long term it can lead to decreased dopamine levels.",
+                    "answers_found": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+	{
+                    "title": "Stages of Alcohol Withdrawal and Detox Timeline - Find Rehab Centers",
+                    "text": "all emergency room visits are related to alcohol in some way. \u2022 10% of deaths between the ages of 20 and 64 are related to excess alcohol consumption. \u2022 Alcohol is the 3rd leading preventable death cause in this country, with 88,000 fatalities each year. Alcohol increases dopamine levels in the brain so that people feel very nice. Mood is elevated, self-confidence increases, and inhibitions decrease. However, when the alcohol leaves the bloodstream, this stops. These alterations in the levels of dopamine can lead to the brain expecting alcohol to be present, which means it will stop producing its own",
+                    "url": "https://www.findrehabcenters.org/alcohol-addiction-rehab/stages-alcohol-withdrawal-detox/",
+                    "summary": "Alcohol increases dopamine levels in the brain, leading to elevated mood and decreased inhibitions. However, the brain may stop producing its own dopamine when it expects alcohol to be present.",
+                    "extraction": "Alcohol increases dopamine levels in the brain so that people feel very nice.",
+                    "answers_found": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+	{
+                    "title": "Alcoholism - Physiopedia",
+                    "text": "folic acid in the blood serum magnesium - measures the amount of magnesium in the blood uric acid - measures the amount of uric acid in the blood Alcoholism is a gradual process that occurs over an extended period of time. Over time alcohol alters the balance of chemicals in the brain such as gamma-aminobutyric acid (GABA), glutamate, and dopamine.[6] GABA inhibits impulsiveness. Glutamate excites the nervous system. Alcohol increases the level of dopamine in the brain which is associated with the pleasurable aspect of drinking. Excessive alcohol use may increase or decrease the amount of these chemicals causing cravings.",
+                    "url": "https://physio-pedia.com/Alcoholism",
+                    "summary": "Alcohol increases dopamine levels in the brain, according to the Physiopedia article on Alcoholism.",
+                    "extraction": "Alcohol increases the level of dopamine in the brain which is associated with the pleasurable aspect of drinking.",
+                    "answers_found": [
+                        1,
+                        1,
+                        0
+                    ]
+                },
+	{
+                    "title": "How to Increase the Level of Dopamine in the Body?",
+                    "text": "of dopamine remains for many years. At the same time, psychostimulants in drugs and alcohol are replaced in metabolic processors, neurotransmitters produced by the body and reduce the natural level of reproduction of serotonin and dopamine. No less harmful is the abuse of strong coffee drinks and tea. The caffeine contained in them lowers the production of hormones, which leads to premature fatigue, a decrease in the emotional state and poor health. The low content of happiness hormones can be increased by using various dietary supplements and medications that contain either dopamine hormone or catalysts, which intensify its production by",
+                    "url": "https://www.ownbuzz.com/how-to-increase-the-level-of-dopamine-in-the-body/",
+                    "summary": "The document mentions that alcohol and drugs can reduce the natural level of dopamine in the body, but does not provide information on whether alcohol specifically increases or decreases dopamine levels.",
+                    "extraction": "Alcohol reduces the natural level of reproduction of serotonin and dopamine.",
+                    "answers_found": [
+                        1,
+                        1,
+                        0
+                    ]
+               }
+            ]
+         },
+    {
+            "question": "My family gets nervous leaving the dog alone because we fear she will \"get extremely bored\" or \"scared\" like humans. Do dogs react the same way to long periods of time alone as humans? What is going through their heads?",
+            "question_ctx": "",
+            "answer": "Dogs don't react just like humans, but they do react.\n\nThey social animals by nature, and are most comfortable as part of a familiar pack.  Being separated from their pack causes them discomfort.\n\nThey are also intelligent animals, and without sufficient stimulation, will turn to destructive behaviors.",
+            "claims": [
+                "Dogs are social animals and are most comfortable as part of a familiar pack.",
+                "Being separated from their pack causes them discomfort.",
+                "Without sufficient stimulation, dogs may turn to destructive behaviors."
+            ],
+            "docs": [
+                {
+                    "title": "Causes of Fear and Anxiety in Dogs and Cats - PetBucket",
+                    "text": "Dogs are highly social and form a strong connection with their family members \u2013 be they humans or other dogs. So, when a dog is left alone at home for extended periods of time they can experience the distress of separation anxiety, which not only takes an emotional toll but can also lead to destructive and anti-social behavior. For your pet, there is a lot to be scared of when a storm hits. The noise of thunder, loud and unexpected, seems to your pet like danger from an unknown source. In addition, there is the darkening skies, flashes of lightning,",
+                    "url": "https://www.petbucket.com/c/4586832/1/causes-of-fear-and-anxiety-in-dogs-and-cats.html",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "title": "dog breeds \u2013 Best Friend Mobility Blog",
+                    "text": "just shepherding livestock. German Shepherds help in law enforcement, military, rescue, assisting the blind and disabled, and so many other jobs. They get lonely. You cannot leave them alone for long periods of time. By long periods, we don\u2019t mean days but hours. If you do leave them alone, they get bored, lonely, and upset. To cope they turn to disruptive and destructive acts such as constant barking, scratching or chewing on anything they can get their paws at. They need activity. Partly because they easily get bored and lonely and mostly because they seem to generate a lot of",
+                    "url": "https://blog.bestfriendmobility.net/tag/dog-breeds/",
+                    "summary": "The article discusses the need for activity and interaction for dogs, particularly German Shepherds, who may become bored, lonely, and destructive if left alone for long periods of time. It does not directly address if dogs react the same way as humans to being left alone.",
+                    "extraction": "\"If you do leave them alone, they get bored, lonely, and upset. To cope they turn to disruptive and destructive acts such as constant barking, scratching or chewing on anything they can get their paws at.\"",
+                    "answers_found": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "title": "L-Theanine for Dogs [Supplement Guide] | HolistaPet",
+                    "text": "triggers of anxiety in dogs include: Being left alone for long periods of time Most dog owners are familiar with the term \u201cseparation anxiety\u201d. One of the most common triggers for anxiety in dogs is being left alone for a long period of time. Dogs are social creatures and, like us, need interaction and attention from others. They can get scared of being alone too long. Dogs see their family members as part of their pack, so the loss of any family members can have a serious impact on them. Also, if your dog grew up with another dog in",
+                    "url": "https://www.holistapet.com/l-theanine-for-dogs-supplement-guide/",
+                    "summary": "Dogs can get scared and anxious when left alone for long periods of time, as they are social creatures that need interaction and attention. The text does not provide information on what is going through a dog's head or if they react the same way as humans.",
+                    "extraction": "One of the most common triggers for anxiety in dogs is being left alone for a long period of time. Dogs are social creatures and, like us, need interaction and attention from others. They can get scared of being alone too long.",
+                    "answers_found": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "title": "The benefits of doggy daycare | The Dog Stop - Columbus",
+                    "text": "leaving your dog alone at home for extended periods of time can cause anxiety, barking issues and plenty of stress for your dog? That\u2019s a lot to consider when you leave for work each day. A dog daycare facility, however, can make sure that your dog will be getting all the attention they need and want. Gives them doggy interaction Like humans, dogs are creatures of groups and need to be socialized regularly. Taking your dog to a dog daycare center is a great way to get their socialization in. Dogs that are great around people but fearful or aggressive",
+                    "url": "https://thedogstop.com/oh-columbus/the-benefits-of-doggy-daycare/",
+                    "summary": "Do dogs react the same way to long periods of time alone as humans? What is going through their heads? \nSummary: Leaving dogs alone at home for extended periods of time can cause anxiety, stress, and barking issues. A dog daycare facility can provide dogs with socialization and attention they need, reducing the negative effects of being alone.",
+                    "extraction": "\"leaving your dog alone at home for extended periods of time can cause anxiety, barking issues and plenty of stress for your dog?\"",
+                    "answers_found": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+
+                { 
+                    "title": "What Golden Retrievers Need-Find Out Before Owning One | First Time Dog Mom",
+                    "text": "I really believe this breed needs constant love and attention. Goldens are super sweet and gentle and love spending time with people, they are social dogs who crave human interaction. Most goldens will eagerly greet any human with a wagging tail and smile, even strangers. These dogs will follow you around everywhere, and they do not do well when left alone. Leaving a golden alone for a long period of time could cause depression, separation anxiety, and destructive behavior. If you plan on getting a golden, you must have time every day to spend with your dog. If you are",
+                    "url": "https://firsttimedogmom.com/what-golden-retrievers-need-find-out-before-owning-one",
+                    "summary": "Goldens, like many dogs, crave human interaction and do not do well when left alone for long periods of time. This can lead to depression, separation anxiety, and destructive behavior.",
+                    "extraction": "\"Leaving a golden alone for a long period of time could cause depression, separation anxiety, and destructive behavior.\"",
+                    "answers_found": [
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+      },
+   {
+            "question": "Why men get bald on the top of their head instead of the sides",
+            "question_ctx": "",
+            "answer": "The hair follicles are different for men who have the male pattern baldness genes, and in the presence of a specific hormone in men, the follicles there will shrink, where the sides and back will not (this is why they can transplant hair from the back of your head and it will grow like normal on the top of the head).",
+            "claims": [
+                "Men can have hair transplants from the back of their head that will grow on the top of their head.",
+                "The hair follicles of men with the male pattern baldness gene will shrink in the presence of a specific hormone.",
+                "Hair follicles on the sides and back of men's head will not shrink in the presence of this specific hormone."
+            ],
+	    "docs": [
+                {
+                    "title": "Are Women Good Candidates for Hair Transplant Surgery ?",
+                    "text": "of the top of the head. However, the sides and back of the head are usually covered with healthy balding-resistant hair follicles. Men with this pattern of balding will have donor hair that survives the hair transplant process and flourishes long afterward. That is because a naturally-occurring enzyme in the body combines with testosterone to create a chemical called DHT. This chemical is responsible for the hair loss on the tops of men\u2019s heads when they have male pattern baldness. However, it does not affect the back and sides of their hair in most cases. These areas have healthy hair",
+                    "url": "https://healthbeautyturkey.com/en/women-good-candidates-for-hair-transplant-surgery/",
+                    "summary": "Men get bald on the top of their head due to a naturally-occurring enzyme in the body that combines with testosterone to create a chemical called DHT, which is responsible for hair loss in male pattern baldness. This chemical does not affect the back and sides of their hair in most cases. (Irrelevant)",
+                    "extraction": "\"Men with this pattern of balding will have donor hair that survives the hair transplant process and flourishes long afterward. That is because a naturally-occurring enzyme in the body combines with testosterone to create a chemical called DHT. This chemical is responsible for the hair loss on the tops of men\u2019s heads when they have male pattern baldness. However, it does not affect the back and sides of their hair in most cases.\"",
+                    "answers_found": [
+                        1,
+                        0,
+                        1
+                    ]
+                },
+		{
+                    "title": "Are Hair pieces, hats, topical applications or the dreaded combover in your future? | East County | Your Observer",
+                    "text": "and it is this DHT that signals the hair follicles on the top of the head to shrink. As the follicle becomes smaller, the hair produced by that follicle becomes finer, thinner and shorter, until it becomes dormant and no longer grows. The follicles on the sides and back of the head do not have receptors for DHT and therefore never stop growing, hence, the horseshoe shape bald men have, and from this we get the \u201ccombover\u201d! Medical treatments for baldness? Finasteride (Propecia), blocks the synthesis of Type II 5 alpha-Reductase which prevents the conversion of testosterone to DHT. No",
+                    "url": "https://www.yourobserver.com/sponsored-article/are-hair-pieces-hats-topical-applications-or-dreaded-combover-your-future",
+                    "answers_found": [
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "title": "Am I a Good Candidate for NeoGraft? Honolulu - The Ferguson Clinic",
+                    "text": "He likely either has a large bald spot or thinning hair on the top of his head. However, the hair on the sides of his head and on the back of his head are still growing in a healthy way. The hair may be very thick and full. In this situation, hair follicles from the sides or back of his head will be transplanted from the top. You may be wondering if women qualify for this treatment. The answer to that question is yes. Both men and women experience thinning hair and balding as they get older. Of course, there",
+                    "url": "https://thefergusonclinic.com/good-candidate-neograft/",
+                    "summary": "Irrelevant.",
+                    "extraction": "Men get bald on the top of their head instead of the sides because they likely have either a large bald spot or thinning hair on the top of their head, while the hair on the sides and back of their head are still growing in a healthy way.",
+                    "answers_found": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+		{
+                    "title": "Hair Transplant Surgery for Men",
+                    "text": "transplants are when hair is taken from the back or sides of the head and transplanted to the front or top, where there are signs of hair loss. As hair follicles at the side of the side of the head aren't usually affected by male pattern baldness, they can continue to grow and easily produce more hair in the balding areas. There are a few different men's hair transplant options you can go for, and over the years the success rate and overall appearance of them have improved considerably. However, one thing that's likely to remain constant is getting what",
+                    "url": "https://us.theidleman.com/blogs/grooming/hair-transplant-surgery-men",
+                    "summary": "When men get bald on the top of their head instead of the sides, hair transplant surgery can be done by taking hair from the back or sides of the head and transplanting it to the top or front. The hair follicles at the sides of the head are not affected by male pattern baldness and can continue to grow.",
+                    "extraction": "Men get bald on the top of their head instead of the sides because hair follicles at the side of the head aren't usually affected by male pattern baldness, and they can continue to grow and easily produce more hair in the balding areas.",
+                    "answers_found": [
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "title": "Why Do Only Some Men Go Bald? | PM Press | Everything News",
+                    "text": "with male pattern baldness are sensitive to the male hormone dihydrotestosterone, or DHT. This hormone causes hair follicles to become progressively smaller and eventually disappear in a process called miniaturization. Male pattern baldness usually begins with a receding hairline, progresses to baldness on the top of the scalp, and finally leaves only a rim of hair remaining around the sides of the head in a horseshoe pattern. In some cases, however, though a genetic predisposition to baldness exists, it does not manifest itself in hair loss. Other Causes of Baldness As people age, hair gradually thins out and miniaturization naturally",
+                    "url": "http://www.prairiesmokepress.com/why-do-only-some-men-go-bald/",
+                    "answers_found": [
+                        0,
+                        1,
+                        0
+                    ]
+                }
+	    ]
+   	},
+        {
+            "question": "Why is the front brake (of bike or car) more effective than the rear brake?",
+            "question_ctx": "The front brakes on almost all modern autos that I've seen are larger than the rear. Also, when I am riding my bike, I feel like using the front brake only stop the bike in a shorter distance than using the rear only. Why is this?",
+            "answer": "When you step on the brakes, the weight of your vehicle shifts forward so it's more on the front wheels than the back wheels, so the front brakes do more of the braking.",
+            "claims": [
+                "The front brake is more effective than the rear brake because the weight of the vehicle shifts forward when brakes are applied.",
+                "The front wheels do more of the braking when the brakes are applied.",
+                "The weight of the vehicle is more on the front wheels than the back wheels."
+            ],
+            "docs": [
+                {
+                    "title": "Reckless Cyclist May Face Charges for Fatal Accident | MetaFilter",
+                    "text": "once you've started braking). (If you think about it for a second, it's obvious that braking with the front brake is going to be more effective than using the rear brake; as you slow down, more weight transfers to the front of the bike, limiting the amount of traction the rear tire has and thus the ability of the rear brake to affect your speed.) posted by asterix at 3:06 PM on April 7, 2012 [11 favorites] California Vehicle Code \u00a7 21201 (a) says \"No person shall operate a bicycle on a roadway unless it is equipped with a brake",
+                    "url": "https://www.metafilter.com/114644/Reckless-Cyclist-May-Face-Charges-for-Fatal-Accident",
+                    "summary": "Braking with the front brake of a bike is more effective than using the rear brake because more weight transfers to the front of the bike, limiting the amount of traction the rear tire has, as stated in the document.",
+                    "extraction": "\"Braking with the front brake is going to be more effective than using the rear brake; as you slow down, more weight transfers to the front of the bike, limiting the amount of traction the rear tire has and thus the ability of the rear brake to affect your speed.\"",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+	        {
+                    "title": "Maintain Your Braking System To Avoid Breaking Brakes | Car Care Aide - Everyday Maintenance Tips for the Car Lovers",
+                    "text": "as the rear discs and pads mainly suffer from corrosion. The front wheels do most of the work in a car when the driver tries to bring the vehicle to a halt because when the car decelerates the load is transferred to the front wheels. This explains why you usually need to replace the front discs and pads more often than the rear ones. The braking system uses friction to stop the vehicle, with hydraulic pressure often being used in braking systems. This pressure pushes the brake pads against the brake disc inside a cast iron drum to bring the",
+                    "url": "https://carcareaide.com/2012/12/maintain-your-braking-system-to-avoid-breaking-brakes/",
+                    "summary": "The front wheels do most of the work in a car's braking system because the load is transferred to them when the car decelerates. This is why the front discs and pads need to be replaced more often than the rear ones.",
+                    "extraction": "The front wheels do most of the work in a car when the driver tries to bring the vehicle to a halt because when the car decelerates the load is transferred to the front wheels. This explains why you usually need to replace the front discs and pads more often than the rear ones. Therefore, the front brake is more effective than the rear brake.",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+	        {
+                    "title": "EBTC, Author at Edmonton Bicycle & Touring Club EBTC, Author at Edmonton Bicycle & Touring Club",
+                    "text": "stop suddenly, you have to put a foot out in front of yourself to keep from toppling forward. In the same way, when you stop a car, its front springs squeeze down as more weight goes to the front wheels. Your bike doesn\u2019t have springs, but the weight nonetheless goes to the front wheel. Try a little experiment: Walk along next to your bike. Squeeze the front brake lever. The bike will stop quickly, but the rear wheel will rise off the ground. Then squeeze the rear brake lever. Braking will be weak, and the rear tire will skid. The",
+                    "url": "http://bikeclub.ca/author/kim/",
+                    "summary": "When you squeeze the front brake lever of a bike, the bike stops quickly because the weight goes to the front wheel. In contrast, the rear brake lever causes weak braking and skidding of the rear tire.",
+                    "extraction": "When you squeeze the front brake lever, the bike stops quickly because the weight goes to the front wheel, making it more effective than the rear brake.",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+	        {
+                    "title": "Swapping a V8 Into a Toyota MR2 \u2013 Build Your Own Supercar \u2013 MotorGazette",
+                    "text": "front wheels. This means that the rear wheels become unloaded. On front engine cars, the front brakes do about 80% of the stopping. This is why disk brakes in the rear took a long time to catch on. They simply are not needed in the rear. A mid engine car has a LOT more of the weight (usually around 55 to 60%) on the rear wheels. When you hit the brakes, weight transfers to the front, so under braking, you might get 50%-60% on the front. Dumbell cars get some of the help that mid-engine car gets, but not nearly",
+                    "url": "http://motorgazette.com/2017/08/02/swapping-a-v8-into-a-toyota-mr2-build-your-own-supercar/",
+                    "summary": "The document is relevant to the question of interest. The front brake of a car is more effective because on front engine cars, the front brakes do about 80% of the stopping. In mid-engine cars, around 55 to 60% of the weight is on the rear wheels, so under braking, the front wheels get around 50%-60%.",
+                    "extraction": "On front engine cars, the front brakes do about 80% of the stopping. This is why disk brakes in the rear took a long time to catch on.",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+	        {
+                    "title": "Memphis International Raceway - RACING 101",
+                    "text": "- In most cars, including streetcars, pressing on the brake pedal applies a little more force to the front brakes than the rear. This is designed to take advantage of the fact that under braking, weight transfers to the front of the car. With lots of weight on the front tires, the brakes can be applied very hard without completely stopping the wheels from rotating. At the same time, the rear of the car tends to get lighter so the rear brakes must be engaged less strongly than the fronts to avoid locking the wheels and possibly losing control. In",
+                    "url": "http://www.racemir.com/faqs/racing101",
+                    "answers_found": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+	    ]
+	}
+    ]
+}
